@@ -1,7 +1,7 @@
 C = g++
 CFLAGS = -g -Wall -std=c++11
-OBJ = p4.o parser.o scanner.o
-BIN = comp
+OBJ = codegenerator.o parser.o scanner.o
+BIN = compiler
 
 %.o: %.cpp
 	$(C) $(CFLAGS) $< -c -o $@

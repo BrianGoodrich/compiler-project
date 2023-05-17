@@ -1,4 +1,0 @@
-open
-  data _x : 1 ;
-  print < _x ;
-close
